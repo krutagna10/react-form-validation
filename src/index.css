@@ -1,0 +1,47 @@
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-space-mono: 'Space Mono', monospace;
+
+  --green: #57b846;
+  --dark-green: #47913a;
+  --white: #fff;
+  --grayish-cyan: hsl(184, 14%, 56%);
+  --light-grayish-cyan: hsl(185, 41%, 84%);
+  --very-light-grayish-cyan: hsl(180, 27%, 94%);
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input {
+  font: inherit;
+  text-transform: inherit;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: var(--font-space-mono);
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  font-weight: 500;
+}
+
+
+/* Utility Class */
+.flow > * + * {
+  margin-top: 1.25rem;
+}

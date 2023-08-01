@@ -1,0 +1,70 @@
+/* Form utility */
+.form-section {
+  max-width: 36rem;
+  min-width: 32rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form__heading-wrapper {
+  background-color: var(--green);
+  padding: 2rem;
+}
+
+.form__heading {
+  color: var(--white);
+  text-align: center;
+}
+
+.form {
+  padding: 3rem 1.5rem;
+}
+
+.form__input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background-color: var(--very-light-grayish-cyan);
+  border: none;
+}
+
+.form__input {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.form__input.error {
+  border: 2px solid red;
+}
+
+.form__input.error:focus {
+  outline: none;
+}
+
+.form__error-message {
+  font-size: 0.8125rem;
+  color: red;
+}
+
+.form__btn {
+  margin-top: 6.5rem !important;
+  width: 100%;
+  background-color: var(--green);
+  color: var(--white);
+  border: none;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form__btn:disabled {
+  background-color: var(--green);
+  opacity: 0.75;
+}
+
+.form__btn:hover {
+  background-color: var(--dark-green);
+}
