@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import useInput from "../../hooks/useInput";
 import "./Form.css";
 
