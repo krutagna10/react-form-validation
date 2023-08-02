@@ -62,7 +62,7 @@
 
 .form__btn:disabled {
   background-color: var(--green);
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 .form__btn:hover {
